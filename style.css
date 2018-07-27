@@ -1,0 +1,55 @@
+p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+.monkey {
+    height: 200px;
+    width: 200px;
+    top: 33%;
+    position: absolute;
+    left: 5px;
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+.monkey2 {
+    height: 200px;
+    width: 200px;
+    top: 33%;
+    position: absolute;
+    right: 5px;
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+.monkey img, .monkey2 img {
+    width: 100%;
+    height: auto;
+}
+
+.banana {
+    top:33%;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.banana img {
+    width: 100%;
+    height: auto;
+}
+  
+  .flip {
+    transform: rotate(-720deg);
+  }
+  
+  .flip2 {
+    transform: rotate(720deg);
+  }
